@@ -1,21 +1,33 @@
 body {
-  margin: 5px;
+  padding: 5px;
 }
 
-header {
-  margin-left: 40px;
+.box {
+  width: 1000px;
 }
+.poster {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+.poster-text {
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  bottom: 25rem;
+}
+.short-text {
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  bottom: 32rem;
+  left: 25rem;
+}
+
 img {
   width: 400px;
-  float: left;
-  padding-right: 10px;
-}
-article {
-  align-self: middle;
-}
-span {
-  color: red;
-}
-.plot {
-  margin-top: 210px;
+  border: 1px solid black;
+  border-radius: 5%;
 }
