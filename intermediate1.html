@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+       <meta charset='utf-8'>
+       <title>Intermediate 1</title>
+   </head>
+   <body>
+       <form action="action_page.php">
+           First name:<br>
+           <input type="text" name="firstname" placeholder="First name"><br>
+           Last name:<br>
+           <input type="text" name="lastname"  placeholder="Family Name"><br/>
+           <br/>
+           Select device: <br/>
+           <input type="radio" name="device" value="mobile" checked> Mobile <br/>
+           <input type="radio" name="device" value="laptop"> Laptop <br/>
+           <input type="radio" name="gender" value="desktop"> Desktop <br/>
+    <br/>
+           Select your favorite OS <br/>
+           <select name="OS">
+               <option value="iOS">iOS</option>
+               <option value="Windows" selected>Windows</option>
+               <option value="Linux">Linux</option>
+           </select>
+           <br/><br/>
+           Tell us smth about your choice: <br/>
+           <textarea name="message" rows="10" cols="30">This OS is the best because...
+           </textarea>
+           <br/>
+           <br/>
+           <input type="submit" value="Submit your data">
+       </form>
+   </body>
+</html>
