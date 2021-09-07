@@ -1,0 +1,21 @@
+body {
+  margin: 5px;
+}
+
+header {
+  margin-left: 40px;
+}
+img {
+  width: 400px;
+  float: left;
+  padding-right: 10px;
+}
+article {
+  align-self: middle;
+}
+span {
+  color: red;
+}
+.plot {
+  margin-top: 140px;
+}
